@@ -3,8 +3,14 @@ FFmpeg 4.4 compiled with configuration for better RTSP support + Python 3.8 + Op
 
 #### Why
 
-This image created to read all RTSP streams (with beer cams), ready to use for developers.
+This image created to read all RTSP streams, ready to use for developers.
+That's a good option to connect to old cameras and generate datasets, etc.
 Image contains pip3 packages: opencv-python==4.5.4.60 ffmpeg-python==0.2.0.
+
+####How to use
+Tested only when running with Docker and this imports, don't download ffmpeg package, all works from the box:
+![image](https://user-images.githubusercontent.com/114342765/224548783-c26363ca-cae4-40b7-82f2-20d3611fb443.png)
+FFmpeg used to read RTSP-stream and cv2 for save frames.
 
 #### Dockerhub (image)
 [link](https://hub.docker.com/r/haoshand/ffmpeg-python)
